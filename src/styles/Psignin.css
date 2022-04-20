@@ -1,0 +1,90 @@
+#ipb{
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid rgb(247, 243, 243);
+    border-radius: 8px;
+    font-family: Montserrat;
+    box-sizing: border-box;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+#k{
+    margin-left: 100px;
+    margin-top: 50px;
+    font-family: Exo;
+    font-size: 14px;
+
+    
+}
+
+label{
+    color:black
+}
+
+img{
+    margin-top: 50px;
+    margin-left: 150px;
+    object-fit: contain;
+}
+
+label{
+    float: left;
+}
+h3{
+    text-align: center;
+    margin-bottom: 40px;
+    color: #947200;
+    font-size: large;
+
+}
+
+#para{
+    text-decoration: underline;
+    color: #947200;
+    text-align: end;
+    font-family: Montserrat;
+}
+
+#bt{
+    color: #fff;
+    background-color:#be911f;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 50px;
+    font-size: larger;
+    font-family:Exo;
+    margin-bottom: 40px;
+}
+
+.cartxt{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 22px;
+    text-align:center;
+    background: linear-gradient(180deg, #0a382b, #646060);
+    /* background-image: url('./AT_Snapshots/DesignImages/card.jpg'); */
+    background-size: cover;
+    color: white;
+    width: 60%;
+    float: right;
+    margin-top: -13px;
+    height: 250px;
+    margin-right: 95px;
+    margin-bottom: 30px;
+    font-family: Exo;
+    font-size: large;
+}
+
+@media screen and(max-width:500px) {
+    body{
+        max-width: 100%;
+        height: auto;
+    }
+    
+}
+
+#w{
+    font-size: 190%;
+}

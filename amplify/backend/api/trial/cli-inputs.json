@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "trial",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "C:\\Users\\rohit\\trial\\amplify\\backend\\api\\trial\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7
+    }
+  }
+}

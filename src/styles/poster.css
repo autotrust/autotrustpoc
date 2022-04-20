@@ -1,0 +1,133 @@
+
+  .container{
+    margin-top: 30px;
+    padding: 30px;
+    background-color: #1e2e27;
+    font-size: 20px;
+    text-align: left;
+    width: 200%;
+  }
+  .carousel {
+    padding: 10px 10px 0;
+    border-radius: 4px;
+    width: 475px;
+    margin: auto;
+  }
+
+  #mycarousel{
+    width: 100%;
+  }
+  
+
+.carousel-inner {
+    position: relative;
+    width: 110%;
+    overflow: hidden;
+}
+  .carousel__main {
+    border-radius: 4px;
+    height: 150px;
+  }
+  #pics{
+    height: 100px;
+    width: 150px
+  }
+  @media only screen and (max-width:500px){
+
+    #fp,#sp,#myCarousel{
+      float: none;
+      width: auto;
+      height: auto;
+    }
+    .container-slider{
+      float: none;
+      width: 100%;
+    }
+
+    .col {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+
+  }
+
+      h4 {
+        color:white;
+        font-family: Oswald;
+      }
+
+#rr{
+  background-color: #1e2e27;
+  margin-top: 20px;
+}
+
+#slr{
+  width: 100%;
+  margin-left: 60px
+}
+
+.carousel.img{
+  width:10%;
+}
+#pr{
+  width: 70%;
+  margin-top: -5px;
+}
+a.carousel-control-prev{
+  justify-content: left;
+  margin-left: 1%;
+}
+
+a.carousel-control-next{
+  justify-content: right;
+  margin-right: 1%;
+}
+
+#co{
+  margin-top: 20px;
+  
+}
+
+#fp{
+  margin-top: 2%;
+  padding: 0;
+  width: 12%;
+}
+
+#sp{
+  padding:0;
+  width: 70%;
+}
+
+#sp1{
+  padding:0;
+  width: 30%;
+  margin-top: -35px;
+  margin-left: 8px;
+}
+#sp2{
+  padding:0;
+  float: inline-end;
+  margin-left: 33%;
+  margin-top: -30px;
+  
+
+}
+#txt{
+  margin-top: 9%;
+  text-align: left;
+
+}
+
+#txt1{
+  margin-top: 9%;
+  margin-left: 5%;
+  text-align: left;
+}
+
+#txt2{
+  margin-top: 9%;
+  margin-left: 5%;
+  text-align: left;
+}

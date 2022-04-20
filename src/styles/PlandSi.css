@@ -1,0 +1,137 @@
+
+.carousel-item{
+    background-color: #947200;
+    /* min-height: 100%; */
+    height: 335px;
+    margin-top: 0px;
+
+}
+
+.carousel{
+    padding: 0;
+}
+.my-3{
+    margin-top: 0rem!important;
+    margin-bottom: 0rem!important;
+
+}
+.Box1{
+    text-align: center;
+    background-color: #115542 ;
+    color: black;
+    border: 1px;
+    padding: 10px;
+    height:315px;
+    width: 650px;
+    margin-left: 4%;
+
+    /* height:340px; */
+}
+
+.Box2{
+    text-align: center;
+    background-color:#115542;
+    color: black;
+    border: 2%;
+    border-top: #115542;
+    border-color: #115542;
+    padding: 10px;
+    margin-left: 5%;
+    width: 730px;
+    /* height:340px; */
+}
+#rpl{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.dlm{
+    background-color:#be911f;
+    border: 5px;
+}
+
+#bt2{
+    color: #fff;
+    background-color:#be911f;
+    /* width: 100%; */
+    box-sizing: border-box;
+    border-radius: 5px;
+    /* height: 50px; */
+    font-size: 19px;
+    font-family:Exo;
+    margin-bottom: 5px;
+}
+#ks1{
+    height:340px;
+   
+}
+
+.block1{
+    text-align: center;
+    /* background-color:#be911f; */
+    color: black;
+    border: 1px;
+    padding: 10px;
+    height: 350px;
+    width: 400px;
+    background-image:url('../assets/DesignImages/Feature_Image.png') ;
+    background-size:contain;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+
+.block2{
+    text-align: center;
+    /* background-color: #be911f; */
+    color: black;
+    border: 1px;
+    padding: 10px;
+    height: 290px;
+    width: 550px;
+    margin-top: 15%;
+    
+}
+
+#roh{
+    margin-left: 6%;
+}
+
+.colmn{
+    float: left;
+    width: 36%;
+    padding: 0 0px;
+    margin-bottom: 5%;
+}
+
+#hd11{
+
+    text-align: center;
+    color: #be911f;
+    font-family: Montserrat;
+}
+
+.container4{
+    background-color: #a57e1c;
+}
+
+#hd12{
+    font-family: Exo;
+    color: aliceblue;
+    float: left;
+    margin-left: 5%;
+    font-size: 350%;
+}
+
+#cl{
+    margin-left: -20px;
+}
+
+#ks11{
+    font-family: Exo;
+    color: aliceblue;
+    margin-left: 5%;
+
+    float: left;
+    text-align: left;
+    font-size: medium;
+}

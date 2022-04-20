@@ -1,0 +1,55 @@
+.col {
+    float: left;
+    width: 25%;
+    /* padding: 0 10px; */
+    box-shadow: 10px;
+  }
+  #a{
+      background-color: white;
+  }
+  .row {
+      margin: 0 -5px;
+    }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .card {
+    /* text-align: center; */
+    background-color: #F1F1F1;
+    color: black;
+    border: 1px;
+    padding: 10px;
+    box-shadow: 5px 5px #1E2E27;
+    ;
+  }
+  #ks{
+    font-family:Exo;
+    font-size: medium;
+}
+  #hd{
+    font-family: 'Exo';
+    color: #be911f;
+    align-self: start;
+    float: left;
+    font-weight: 300;
+
+  }
+  @media screen and (max-width: 600px) {
+    .col {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  #m{
+    font-size: calc(0.05rem + 0.8vw);
+    font-family: 'Montserrat';
+    margin-left: 610px;
+    margin-top: -22px;
+    color: #be911f;
+    font-weight: 600;
+
+  }

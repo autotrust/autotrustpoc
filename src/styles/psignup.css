@@ -1,0 +1,33 @@
+#spip{
+    width: 50%;
+}
+#agree{
+    color: #948C8C;
+    text-decoration: underline;
+}
+
+#cnfsp{
+    margin-top: 170px;
+    margin-left: 50px;
+}
+#dd{
+    margin-left: 70px;
+}
+#uname{
+    text-transform: uppercase;
+    
+}
+#usdd{
+    min-width: 10px;
+}
+#butn2{
+    margin-left: 150px;
+}
+#butn3{
+    margin-left: 80px;
+}
+#middle1{
+    margin-left: 50px;
+    font-family: MONTSERRAT;
+    font-size: small;
+    }
