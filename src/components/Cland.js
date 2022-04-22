@@ -49,7 +49,7 @@ export default function Cland(){
         <div className="container3">
             <div className="row">
             <div className="ch1">
-            <img src={cpic} alt="car-image" height="200" width="200"/>
+            <img src={cpic} alt="car" height="200" width="200"/>
             </div>
             <div className="cnew">   
         <p>You can also add spacing between the heading and paragragh, swap a video in for
@@ -83,7 +83,7 @@ export default function Cland(){
                     </div>
                     
                     <div id="chart" className="col-5">
-                <img src={kpic1} alt="image" width="400" height="250"/>
+                <img src={kpic1} alt="pic" width="400" height="250"/>
                     </div>
                     </div>
                     </div>
@@ -100,7 +100,7 @@ export default function Cland(){
                 </p>
             </div>
             <div className="ch">
-                <img src={barchart} alt="car-image" height="200" width="200" />
+                <img src={barchart} alt="car" height="200" width="200" />
             </div>
             </div>
         </div>

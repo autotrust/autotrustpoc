@@ -43,7 +43,7 @@ export default function Home(){
             <div>
                 {Data.map(info => {
                     return<div className='table'>
-                        <div className="c1"><h2>{info.at_vehicleid} {info.engine_number} {info.reg_number}</h2></div>
+                        <div className="c1"><h2>{info.at_vehicleid} {info.vin_number} {info.engine_number} {info.reg_number}</h2></div>
                         </div>
                 })}
             </div>

@@ -11,7 +11,7 @@ export default function Conland(){
         <div>
         <Header/>
         <div className="container6">
-            <img id="abcd" src={bgi} alt="image" height={200} width="900"/>    
+            <img id="abcd" src={bgi} alt="pic" height={200} width="900"/>    
         </div>
         <div className="container5">
             <div className="row">

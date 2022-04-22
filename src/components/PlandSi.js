@@ -1,6 +1,6 @@
 import React from "react";
-import Contact from "./Navigation/Footer";
-import Header from "./header";
+// import Contact from "./Navigation/Footer";
+// import Header from "./header";
 import '../styles/PlandSi.css';
 // import npic from "/AT_Snapshots/DesignImages/Feature_Image.png"
 export default function PlandSi(){

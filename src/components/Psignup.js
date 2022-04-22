@@ -5,7 +5,7 @@ import Header from './header';
 import PlandSi from './PlandSi';
 import car  from "../assets/DesignImages/car-g2d7b1eca2_1280.png"
 import Contact from './Navigation/Footer';
-import {BiLock} from 'react-icons/bi';
+// import {BiLock} from 'react-icons/bi';
 import {IoMdContact} from 'react-icons/io';
 import Logo from '../assets/DesignImages/ATFullIcon2.png'
 import '../styles/PlandSi.css';
@@ -213,7 +213,7 @@ function Signup() {
                             <div class="container-fluid">
             <div class="row">
                 <div class="col-3">
-                   <Link to ="/components/Psignup"> <img className="logo" src={Logo} height="40"></img></Link>
+                   <Link to ="/components/Psignup"> <img className="logo" src={Logo} alt='' height="40"></img></Link>
                 </div>
                 <div id="middle1" class ="col-6">           
                 <button class="button buttons">GENERATE REPORT</button>
@@ -242,7 +242,7 @@ function Signup() {
                             <div class="container-fluid">
                                 <div class="row">
                                     <div class="col-3">
-                                    <img onClick={() => updateFormState(()=>({...formState, formType:'signedIn'}))} className="logo" src={Logo} height="40"></img>
+                                    <img onClick={() => updateFormState(()=>({...formState, formType:'signedIn'}))} className="logo" alt='' src={Logo} height="40"></img>
                                     </div>
                                     <div id="middle1" class ="col-6">           
                                     <button onClick={() => updateFormState(()=>({...formState, formType:'signedIn'}))} class="button buttons">GENERATE REPORT</button>

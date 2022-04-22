@@ -12,7 +12,7 @@ export default function Header(){
         <div class="container-fluid">
             <div class="row">
                 <div class="col-3">
-                   <Link to ="/"> <img className="logo" src={Logo} height="40"></img></Link>
+                   <Link to ="/"> <img className="logo" alt="" src={Logo} height="40"></img></Link>
                 </div>
                 <div id="middle" class ="col-6">
                 <Link to="/components/Pland" class="button buttons">PERSONAL</Link>

@@ -1,4 +1,4 @@
-import React, {useState, useContext, useEffect} from 'react';
+import React, {useState, useEffect} from 'react';
 import car from "../assets/DesignImages/car-g2d7b1eca2_1280.png"
 import Header from '../components/header';
 import Contact from '../components/Navigation/Footer';
@@ -6,7 +6,7 @@ import {BiLock} from 'react-icons/bi';
 import {Auth, Hub} from 'aws-amplify';
 import {IoMdContact} from 'react-icons/io';
 import Logo from '../assets/DesignImages/ATFullIcon2.png';
-import { Link, Navigate } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 import PlandSi from './PlandSi';
 
 const initialFormState = {
@@ -119,12 +119,12 @@ function CorpSignin(){
                    )}
 
                 {
-                    formType=='generateReport' && (
+                    formType==='generateReport' && (
                         <div>
                             <div class="container-fluid">
             <div class="row">
                 <div class="col-3">
-                   <Link to ="/components/Psignup"> <img className="logo" src={Logo} height="40"></img></Link>
+                   <Link to ="/components/Psignup"> <img className="logo" alt='pic' src={Logo} height="40"></img></Link>
                 </div>
                 <div id="middle1" class ="col-6"> 
                 <button onClick={() => updateFormState(()=>({...formState, formType:'signedIn'}))}  class="button buttons">DASHBOARD</button>          
@@ -154,7 +154,7 @@ function CorpSignin(){
                             <div class="container-fluid">
                                 <div class="row">
                                     <div class="col-3">
-                                    <img onClick={() => updateFormState(()=>({...formState, formType:'generateReport'}))} className="logo" src={Logo} height="40"></img>
+                                    <img onClick={() => updateFormState(()=>({...formState, formType:'generateReport'}))} className="logo" alt="pic" src={Logo} height="40"></img>
                                     </div>
                                     <div id="middle1" class ="col-6">  
                                     <button onClick={() => updateFormState(()=>({...formState, formType:'signedIn'}))}  class="button buttons">DASHBOARD</button>         
@@ -189,7 +189,7 @@ function CorpSignin(){
                             <div class="container-fluid">
                                 <div class="row">
                                     <div class="col-3">
-                                    <img onClick={() => updateFormState(()=>({...formState, formType:'signedIn'}))} className="logo" src={Logo} height="40"></img>
+                                    <img onClick={() => updateFormState(()=>({...formState, formType:'signedIn'}))} className="logo" alt='' src={Logo} height="40"></img>
                                     </div>
                                     <div id="middle1" class ="col-6">  
                                     <button class="button buttons">DASHBOARD</button>         
@@ -224,7 +224,7 @@ function CorpSignin(){
                         <div class="container-fluid">
                                 <div class="row">
                                     <div class="col-3">
-                                    <img onClick={() => updateFormState(()=>({...formState, formType:'signedIn'}))} className="logo" src={Logo} height="40"></img>
+                                    <img onClick={() => updateFormState(()=>({...formState, formType:'signedIn'}))} className="logo" alt='' src={Logo} height="40"></img>
                                     </div>
                                     <div id="middle1" class ="col-6">  
                                     <button onClick={() => updateFormState(()=>({...formState, formType:'signedIn'}))} class="button buttons">DASHBOARD</button>         

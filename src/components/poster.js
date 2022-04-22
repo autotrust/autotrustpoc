@@ -2,11 +2,11 @@ import '../styles/poster.css'
 import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Carousel } from "react-responsive-carousel";
-import Slider from "react-slick";
+// import { Carousel } from "react-responsive-carousel";
+// import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import source from "./img.json";
+// import source from "./img.json";
 import pic1 from '../assets/DesignImages/Picture15.png';
 import pic2 from '../assets/DesignImages/Picture1.png';
 import pic3 from '../assets/DesignImages/Picture3.png';
@@ -32,10 +32,10 @@ export default function Imgslider(){
                 <h4>a diam sollicitudin tempor id eu nisl</h4>
                 </div>
                 <div id='fp' className='col-2'>
-                  <img src={pic1}  alt="image" height="160" width="60"></img>
+                  <img src={pic1}  alt="" height="160" width="60"></img>
                 </div>
                 <div id="sp" className='col-8'>
-                  <img id='pr' src={pic2}  alt="image" height="300" width="500"></img>
+                  <img id='pr' src={pic2}  alt="" height="300" width="500"></img>
                 </div>
                 </div>
               </div>
@@ -45,10 +45,10 @@ export default function Imgslider(){
               <h4>massa vitae tortor condimentum lacinia quis vel eros</h4>
               </div>
               <div id="sp1" className='col'>
-                  <img src={pic3} alt="image" height="300" width="100"></img>
+                  <img src={pic3} alt="" height="300" width="100"></img>
                   </div>
               <div id="sp1" className='col'>
-                  <img src={pic4} alt="image" height="300" width="100"></img>
+                  <img src={pic4} alt="" height="300" width="100"></img>
               </div>
               </div>
               <div id='rr' class="carousel-item">
@@ -57,7 +57,7 @@ export default function Imgslider(){
               </div>   
               <div id="sp2" className='col'>
 
-                <img src={pic5} alt="image" height="300" width="100"></img>
+                <img src={pic5} alt="" height="300" width="100"></img>
               </div>
               </div>
               
