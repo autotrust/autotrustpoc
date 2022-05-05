@@ -44,12 +44,12 @@ function Signup() {
                   updateFormState(()=>({...formState, formType:"signUp" }))
                   alert(data.payload.data.message)
                   break;
-              case 'signIn_failure':
-                  console.log('user sign in failed');
-                  alert(data.payload.data.message)
-                  break;
-              case 'configured':
-                  console.log('the Auth module is configured');
+            //   case 'signIn_failure':
+            //       console.log('user sign in failed');
+            //       alert(data.payload.data.message)
+            //       break;
+            //   case 'configured':
+            //       console.log('the Auth module is configured');
             }
           });
     }
@@ -58,7 +58,7 @@ function Signup() {
         try{
             const user = await Auth.currentAuthenticatedUser()
             console.log('user:', user)
-            console.log('data:', user.getUsername())
+            // console.log('data:', user.getUsername())
             updateUser(user)
             updateFormState(()=>({...formState, formType:"signedIn" }))
         }catch(err) {
